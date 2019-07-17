@@ -10,11 +10,9 @@ typedef bool Predicate<T>(T value);
 
 ##### 2、使用 lowercase_with_underscores 风格来命名库和文件名名字：
 ```
-class SliderMenu { ... }
-
-class HttpRequest { ... }
-
-typedef bool Predicate<T>(T value);
+library peg_parser.source_scanner;
+import 'file_system.dart';
+import 'slider_menu.dart';
 ```
 
 ##### 3、使用 lowercase_with_underscores 风格命名导入的前缀：

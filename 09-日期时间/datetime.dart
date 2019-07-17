@@ -5,15 +5,6 @@ void main() {
   // var d = new DateTime(2018, 10, 10, 9, 30);
   // print(d);
 
-  // UTC
-  // var d = new DateTime.utc(2018, 10, 10, 9, 30);
-  // print(d);
-
-  // IOS 8601
-  // var d1 = DateTime.parse('2018-10-10 09:30:30Z');
-  // print(d1);
-  // var d2 = DateTime.parse('2018-10-10 09:30:30+0800');
-  // print(d2);
 
   // 时间 增减量
   // var d1 = DateTime.now();

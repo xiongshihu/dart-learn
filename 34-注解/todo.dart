@@ -2,7 +2,7 @@ import 'dart:mirrors';
 
 main(List<String> args) {
   currentMirrorSystem().libraries.forEach((uri, lib) {
-    // print('lib: ${uri}');
+    print('lib: ${uri}');
     lib.declarations.forEach((s, decl) {
       // print('decl: ${s}');
       decl.metadata.where((m) => m.reflectee is Todo).forEach((m) {
